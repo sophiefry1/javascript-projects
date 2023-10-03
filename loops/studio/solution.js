@@ -2,21 +2,28 @@ const input = require('readline-sync');
 
 // Part A: #1 Populate these arrays
 
-let protein = [];
-let grains = [];
-let veggies = [];
-let beverages = [];
-let desserts = [];
-
+let protein = ['chicken', 'pork', 'tofu', 'beef', 'beans'];
+let grains = ['bread', 'pasta', 'rice', 'oats', 'popcorn',];
+let veggies = ['celery', 'spinach','cucumber','onion'];
+let beverages = ['soda','juice','water','tea','wine',];
+let desserts = ['cheesecake','brownies','cookies','icecream',];
 
 function mealAssembly(protein, grains, veggies, beverages, desserts, numMeals) {
   let pantry = [protein, grains, veggies, beverages, desserts];
-  let meals = [];
+  let meals = []
+  for (let i = 0; i < numMeals; i++) {
+    let dinner = []
+ }; 
   
   /// Part A #2: Write a ``for`` loop inside this function
   /// Code your solution for part A #2 below this comment (and above the return statement) ... ///
 
+  let i = 0; 
 
+  while (i < numMeals) {
+     console.log(i);
+     i++;
+  }
   return meals;
 }
 
