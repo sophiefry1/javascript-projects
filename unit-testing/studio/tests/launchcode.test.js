@@ -49,7 +49,9 @@ test("only divisible by 2, 3 AND 5" , function(){
 expect(launchcode.launchcodeOutput(30)).toBe("LaunchCode Rocks")
 });
 
-test("")
+test("returns rutabags", function(){
+!expect(launchOutput.launchOutput(30)).notToBe("Rutabagas! That doesn't work.")
+});
 
  
 
