@@ -1,2 +1,17 @@
-// Write your JavaScript code here.
-// Remember to pay attention to page loading!
+<html>
+<head>
+<title>Window Load Event</title>
+<script>
+    window.addEventListener("load", function(){
+    takeOff = document
+
+    });
+</script>
+
+
+</head>
+<body>
+
+
+</body>
+</html>
